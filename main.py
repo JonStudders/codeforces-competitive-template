@@ -21,8 +21,7 @@ def inlt() -> list[int]:
     return list(map(int, input().split()))
 
 def invr():
-    """Reads a line of space-separated integers and returns them as an iterator.
-    Useful for unpacking directly: a, b, c = invr()"""
+    """Reads a line of space-separated integers and returns them as an iterator."""
     return map(int, input().split())
 
 def insr() -> list[str]:
