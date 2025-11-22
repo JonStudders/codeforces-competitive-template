@@ -1,7 +1,7 @@
 # ------------------------------
 # Author: Jon Studders
-# Created: 2025-11-22
-# Description: Competitive Programming Template
+# Created: 22/11/2025
+# Problem: 50A
 # ------------------------------
 
 import sys
@@ -34,11 +34,8 @@ def inps() -> str:
 
 # Solution
 def solve():
-    n, k = inlt()  # Read n and k
-    scores = list(invr())  # Read scores as list of ints
-    threshold = scores[k - 1]
-    count = sum(1 for s in scores if s >= threshold and s > 0)
-    print(count)
+    m, n = inlt();
+    print (math.floor((m*n)/2))
 
 if __name__ == "__main__":
     solve()
